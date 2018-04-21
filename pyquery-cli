@@ -35,15 +35,19 @@ def usage():
     print('-h, --help      ')
     print('-o, --output    ')
     print('-v, --version   ')
-    print('-s, --select    ')
-    print('-a, --attr      ')
+    print('-s, --select    \'query_str\'')
+    print('-a, --attr      \'attr_name\'')
     print('-t, --text      ')
     print('-H, --html      ')
-    print('-f, --file      ')
+    print('-f, --file      <file>')
+    print();
+    print("examples:");
+    print("pyquery-cli -s'#myid'");
+    print("pyquery-cli -s'.myclass' -a'name'");
 
 
 def print_version():
-    print('v0.1')
+    print('v0.0.1')
 
 
 def main():
