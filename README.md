@@ -16,6 +16,12 @@ Usage:
 -H, --html
 -f, --file     <file>
 ```
+
+- `-H` prints the html of the founded search
+- `-t` prints thr inner text of the founded search
+
+if no file is given it reads from `stdin`.
+
 ### examples
 
 testfile.html:

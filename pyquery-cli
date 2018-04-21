@@ -41,9 +41,14 @@ def usage():
     print('-H, --html      ')
     print('-f, --file      <file>')
     print();
+    print("'-H' prints the html of the founded search");
+    print("'-t' prints thr inner text of the founded search");
+    print("if no file is given it reads from `stdin`.");
+    print();
     print("examples:");
     print("pyquery-cli -s'#myid'");
     print("pyquery-cli -s'.myclass' -a'name'");
+    print();
 
 
 def print_version():
