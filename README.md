@@ -1,4 +1,4 @@
-# PyQuery
+# PyQuery-cli
 
 ## jquery like queries on command line shell
 
